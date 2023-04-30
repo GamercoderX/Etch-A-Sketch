@@ -15,11 +15,11 @@
   } */
 
   .cell {
-    flex: 1 0 25%;
-    height: 25%;
-    background-color: #ccc;
-    box-sizing: border-box;
-    border: 1px solid #aaa;
+    /* flex: 1 0 25%;
+    height: 25%; */
+    /* background-color: #ccc; */
+    /* box-sizing: border-box; */
+    /* border: 1px solid #aaa; */
   }
 
   .containertwo {
@@ -32,7 +32,8 @@
   }
 
   .newcell{
-    flex: '1 0 25%';
+    flex: 1 0 25%;
+    box-sizing: border-box;
     border-width: 2px;
     border-color: black;
     border-style: solid;
