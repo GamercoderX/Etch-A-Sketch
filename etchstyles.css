@@ -1,4 +1,39 @@
 #container{
-    background-color: black;
-    padding: 10px
+    display: flex;
+    flex-wrap: wrap;
+    background-color: green;
+    width: 960px;
+    height: 960px;
+    margin-bottom: 50px;
 }
+
+.body{
+    margin: 0px;
+}
+/* #box:hover {
+    background-color: red;
+  } */
+
+  .cell {
+    flex: 1 0 25%;
+    height: 25%;
+    background-color: #ccc;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+  }
+
+  .containertwo {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: green;
+    width: 960px;
+    height: 960px;
+    
+  }
+
+  .newcell{
+    flex: '1 0 25%';
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+  }
